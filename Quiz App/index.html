@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Selection">Please Select Any One Option</div>
+    <div class="Start_Test">
+        <div class="Test_Heading">Start Your Gk Test</div>
+        <button id="Start_btn">Start Test</button>
+    </div>
+    <div class="container">
+        <div class="Quiz_Board_Wrapper">
+            <div class="Heading">Quiz App</div>
+            <div class="Quiz_Board">
+                <div class="Question">Question <span id="Question_No"></span></div>
+                <div class="Score">Score : <span id="Score_No">0</span></div>
+            </div>
+        </div>
+        <div class="Question_Board">
+            <div id="Question_heading"></div>
+            <div class="Option">
+                <input type="button" id="Qption1" class="Options" value="">
+                <input type="button" id="Qption2" class="Options" value="">
+                <input type="button" id="Qption3" class="Options" value="">
+                <input type="button" id="Qption4" class="Options" value="">
+            </div>
+        </div>
+        <div class="Quiz_Next_wrapper">
+            <button id="Next">Next</button>
+        </div>
+    </div>
+    <div class="Game_Completion">
+            <div class="Game">Quiz Completed</div>
+            <div class="TOTALSCORE"></div>
+            <button id="Restart">Restart</button>
+    </div>
+    
+</body>
+<script src="script.js">
+
+</script>
+</html>
